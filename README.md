@@ -16,12 +16,15 @@ but working on bits instead of primitive data types (char, int, ...).
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/bitstruct-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/bitstruct-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/bitstruct-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/bitstruct-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bitstruct/badges/version.svg)](https://anaconda.org/conda-forge/bitstruct)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bitstruct/badges/downloads.svg)](https://anaconda.org/conda-forge/bitstruct)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-bitstruct-green.svg)](https://anaconda.org/conda-forge/bitstruct) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/bitstruct.svg)](https://anaconda.org/conda-forge/bitstruct) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/bitstruct.svg)](https://anaconda.org/conda-forge/bitstruct) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/bitstruct.svg)](https://anaconda.org/conda-forge/bitstruct) |
 
 Installing bitstruct
 ====================
