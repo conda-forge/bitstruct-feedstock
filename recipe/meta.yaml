@@ -1,6 +1,6 @@
 {% set name = "bitstruct" %}
-{% set version = "8.0.0" %}
-{% set sha256 = "ef4efeda67676ffd0972b379c898230dfbf108dce9e522ff560246ac933b34cc" %}
+{% set version = "8.1.0" %}
+{% set sha256 = "d196772dd136fc873a648851e945821409c5a962608b6c04ec494d67dd8df102" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
