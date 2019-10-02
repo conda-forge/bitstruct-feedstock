@@ -1,6 +1,6 @@
 {% set name = "bitstruct" %}
-{% set version = "8.4.0" %}
-{% set sha256 = "ff1c173c0eda2998fd57809a73fa64edbafe534ba4ec1a7722641fee5de9ba7f" %}
+{% set version = "8.7.0" %}
+{% set sha256 = "d5159eaa0ffaf2b720e7ae8c21d45deb795e82cbf3319f94f826a46f94d52102" %}
 
 package:
   name: {{ name|lower }}
