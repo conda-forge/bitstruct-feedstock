@@ -5,9 +5,13 @@ Home: https://github.com/eerimoq/bitstruct
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bitstruct-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python bit pack/unpack package.
+
+Development: https://github.com/eerimoq/bitstruct
+
+Documentation: http://bitstruct.readthedocs.io/en/latest/
 
 This module is intended to have a similar interface as the python struct module,
 but working on bits instead of primitive data types (char, int, ...).
