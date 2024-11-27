@@ -1,19 +1,17 @@
 {% set name = "bitstruct" %}
 {% set version = "8.17.0" %}
-{% set sha256 = "eb94b40e4218a23aa8f90406b836a9e6ed83e48b8d112ce3f96408463bd1b874" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: eb94b40e4218a23aa8f90406b836a9e6ed83e48b8d112ce3f96408463bd1b874
 
 build:
   number: 3
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation 
 
 requirements:
   build:
@@ -21,6 +19,7 @@ requirements:
     - {{ stdlib("c") }}
   host:
     - python
+    - setuptools
     - pip
   run:
     - python
