@@ -1,5 +1,5 @@
 {% set name = "bitstruct" %}
-{% set version = "8.17.0" %}
+{% set version = "8.19.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: eb94b40e4218a23aa8f90406b836a9e6ed83e48b8d112ce3f96408463bd1b874
+  sha256: d75ba9dded85c17e885a209a00eb8e248ee40762149f2f2a79360ca857467dac
 
 build:
-  number: 3
-  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation 
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   build:
