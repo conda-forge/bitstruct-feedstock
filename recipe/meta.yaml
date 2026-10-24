@@ -1,5 +1,5 @@
 {% set name = "bitstruct" %}
-{% set version = "8.23.0" %}
+{% set version = "8.24.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3d20a8d748add9b1c68efc6c592a99b4b0937c9dcddd140fdae352bf2513aea5
+  sha256: c72d8bd3b1762a5bcc9fde16bfa4d52800a4bc8d79f81bc7ee0e0bca5b5e901e
 
 build:
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
